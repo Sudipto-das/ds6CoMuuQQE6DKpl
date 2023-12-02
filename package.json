@@ -5,7 +5,7 @@
   "type": "module",
   "homepage": "https://Sudipto-das.github.io/ds6comuuqqe6dkpl",
   "scripts": {
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages ",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",

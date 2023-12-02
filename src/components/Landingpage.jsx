@@ -6,7 +6,7 @@ const CandidateDetails = () => {
     const highestDegree = 'B.Tech';
     const passoutYear = 2022;
     const technologies = ['JavaScript', 'HTML', 'CSS', 'TypeScript', 'React', 'Next.js', 'MongoDB', 'Node.js', 'Express.js'];
-    const resumeUrl = resumePdf;
+    
     
     const downloadResume = () => {
         const cvFileName = 'resume.pdf';

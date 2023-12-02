@@ -5,6 +5,7 @@
   "type": "module",
   "homepage": "https://Sudipto-das.github.io/ds6comuuqqe6dkpl/",
   "scripts": {
+    "predeploy":"npm run build",
     "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",

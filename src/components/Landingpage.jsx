@@ -1,14 +1,24 @@
 import React from 'react';
 
-
+import resumePdf from '../assets/resume.pdf'
 const CandidateDetails = () => {
     const firstName = 'Sudipto';
     const highestDegree = 'B.Tech';
     const passoutYear = 2022;
     const technologies = ['JavaScript', 'HTML', 'CSS', 'TypeScript', 'React', 'Next.js', 'MongoDB', 'Node.js', 'Express.js'];
+    const resumeUrl = resumePdf;
     
-    
+    const downloadResume = () => {
+        const cvFileName = 'resume.pdf';
+        const cvFilePath = resumePdf;
 
+        const link = document.createElement('a');
+        link.href = cvFilePath;
+        link.download = cvFileName;
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
     return (
         <div style={{
             backgroundColor: '#f7f7f7',
@@ -54,7 +64,10 @@ const CandidateDetails = () => {
                     ))}
                 </ul>
             </div>
-           
+            <div>
+                
+                <button onClick={downloadResume}>Download Resume</button>
+            </div>
             <br />
            
         </div>

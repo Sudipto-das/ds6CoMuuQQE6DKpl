@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Sudipto-das.github.io/ds6comuuqqe6dkpl",
+  "homepage": "http://Sudipto-das.github.io/ds6comuuqqe6dkpl",
   "scripts": {
     "deploy": "gh-pages -d build",
     "dev": "vite",

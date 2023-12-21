@@ -5,6 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
  
   base:'/ds6comuuqqe6dkpl/',
-  plugins:[react()]
+  plugins:[react()],
+  base:'https://sudipto-das.github.io/ds6CoMuuQQE6DKpl/'
   
 })
